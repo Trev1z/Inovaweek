@@ -1,0 +1,24 @@
+.sobre {
+    text-align: center;
+}
+
+#sobre_descricao {
+    background-image:url("./assets/image/eco");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    border-top-width: 5px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+}
